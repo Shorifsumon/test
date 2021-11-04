@@ -1,0 +1,121 @@
+html{
+    scroll-behavior:smooth;
+}
+
+.header{
+    background:#0984e3;
+}
+.header-logo img{
+    width: 220px;
+}
+
+.header-menu ul{
+    margin-bottom: 0;
+    text-align: right;
+}
+.header-menu ul li{
+    display: inline-block;
+    
+    margin-left: -4px;
+}
+.header-menu ul li a{
+    color: white;
+    padding: 27px 28px;
+    font-size: 18px;
+    line-height: 70px;
+    transition: .4s;
+    border-right: 1px solid #ddd;
+    text-decoration: none;
+}
+.header-menu ul li a:hover{
+    background:#4834d4;
+}
+
+.banner{
+    background: url(img/laptop-typing.jpg);
+    padding: 200px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.banner-text h1{
+    background: rgba(153,153,153,1);
+    color: white;
+    max-width: 350px;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 10px 0;
+
+}
+.banner-text h2{
+    background: rgba(9,132,227,0.62);
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 40px;
+    color: #ffffff;
+    border-radius: 5px;
+
+}
+
+.about{
+    background: rgba(50,50,52,0.08);
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.service span{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    line-height: 60px;  
+    background: rgba(9,132,227,0.81); 
+    font-size: 35px;
+    color: white;
+    border-radius: 0 20px 0 20px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+.product p{
+    text-align: justify;
+}
+
+.product-right ul{
+    list-style: none;
+    padding: 0;
+
+}
+.product-right ul li{
+    background: #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.footer{
+    background: #34495e;
+    color: white;
+    
+}
+.footer p{
+    margin-bottom: 0;
+}
+
+.footer a{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
